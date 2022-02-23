@@ -1,0 +1,18 @@
+.food {
+  display: flex;
+  align-items: center;
+}
+.food__content {
+  margin-right: 24px;
+  padding-left: 126px;
+}
+.food__description {
+  margin-top: 24px;
+  max-width: 584px;
+}
+.food__button {
+  margin-top: 32px;
+}
+.food__image {
+  order: -1;
+}

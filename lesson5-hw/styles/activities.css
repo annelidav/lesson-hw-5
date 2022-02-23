@@ -1,0 +1,16 @@
+.activities {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.activities__content {
+  margin-right: 24px;
+  padding-right: 126px;
+}
+.activities__description {
+  margin-top: 24px;
+  max-width: 584px;
+}
+.activities__button {
+  margin-top: 32px;
+}
