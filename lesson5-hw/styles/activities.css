@@ -1,10 +1,11 @@
 .activities {
   display: flex;
+  justify-content: space-around;
+  align-content: center;
   align-items: center;
-  margin-bottom: 16px;
+  padding: 80px 0 16px 0;
 }
 .activities__content {
-  margin-right: 24px;
   padding-right: 126px;
 }
 .activities__description {

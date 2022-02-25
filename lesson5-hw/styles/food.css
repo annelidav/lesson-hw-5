@@ -1,9 +1,11 @@
 .food {
   display: flex;
+  justify-content: space-around;
+  align-content: center;
   align-items: center;
+  padding: 16px 0 80px 0;
 }
 .food__content {
-  margin-right: 24px;
   padding-left: 126px;
 }
 .food__description {

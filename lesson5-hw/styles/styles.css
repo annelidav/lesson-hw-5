@@ -27,7 +27,7 @@ body {
 .container {
   margin: auto;
   max-width: 1200px;
-  padding: 0 5px;
+  padding: 0 30px;
 }
 .button {
   font-family: Inter, sans-serif;

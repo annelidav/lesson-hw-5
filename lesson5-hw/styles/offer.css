@@ -1,10 +1,11 @@
 .offer {
   display: flex;
+  justify-content: space-around;
+  align-content: center;
   align-items: center;
-  margin-bottom: 80px;
+  padding: 16px 0 80px 0;
 }
 .offer__content {
-  margin-right: 24px;
   padding-left: 126px;
 }
 .offer__description {

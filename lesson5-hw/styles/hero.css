@@ -1,10 +1,11 @@
 .hero {
   display: flex;
+  justify-content: space-around;
+  align-content: center;
   align-items: center;
-  margin-bottom: 88px;
+  padding: 80px 0;
 }
 .hero__content {
-  margin-right: 24px;
   padding-right: 126px;
 }
 .hero__description {
