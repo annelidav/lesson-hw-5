@@ -1,0 +1,17 @@
+.activities {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  padding: 80px 0 16px 0;
+}
+.activities__content {
+  padding-right: 126px;
+}
+.activities__description {
+  margin-top: 24px;
+  max-width: 584px;
+}
+.activities__button {
+  margin-top: 32px;
+}

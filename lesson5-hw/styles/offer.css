@@ -1,0 +1,20 @@
+.offer {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  padding: 16px 0 80px 0;
+}
+.offer__content {
+  padding-left: 126px;
+}
+.offer__description {
+  margin-top: 24px;
+  max-width: 584px;
+}
+.offer__button {
+  margin-top: 32px;
+}
+.offer__image {
+  order: -1;
+}
