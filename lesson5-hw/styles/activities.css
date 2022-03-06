@@ -1,17 +1,37 @@
+.activities-container {
+  padding: 80px 0;
+}
+
 .activities {
   display: flex;
-  justify-content: space-around;
-  align-content: center;
   align-items: center;
-  padding: 80px 0 16px 0;
+  padding: 32px auto;
 }
-.activities__content {
-  padding-right: 126px;
+
+.activities--aligned-right {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
 }
+
+.activities--aligned-right .activities__image {
+  margin-left: 126px;
+  margin-right: 0;
+}
+
+.activities--aligned-left {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.activities--aligned-left .activities__content {
+  padding-left: 126px;
+}
+
 .activities__description {
   margin-top: 24px;
   max-width: 584px;
 }
-.activities__button {
-  margin-top: 32px;
+
+.activities__image {
+  order: -1;
 }
